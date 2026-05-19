@@ -1,55 +1,106 @@
-#comments in python
-#comments are the programmers notes to explain the code
-# ide ignores the comments
-#in python, # as prefix is used for sinfle line comments
-#for multiline commetns, we can use tripple quotes(''' or """)
+# Comments in Python
+# Comments are the programmers notes to explain the code
+# IDE ignores the comments
+# in python, # as prefix is used for single line comments
+# For multiline comments, we can use triple quotes (''' or """)
+
+"""
+owoadkads
+lkasd;lasd;lads
+klsa;ldksa;
+"""
+'''
+doklaasd;lkdsa
+l;sadkl;asd
+kl;lask;ld
+'''
+
+# Syntx for printing in python
+# print(variable, "content in string")
+
+# Variable = Programmer defined area to store data
+# Python variable can store any data type
+
+# name = "Ujjwal"
+# print("Ujjwal Neupane")
 
 
-#variable = programmer defined area to store data
-# python variable can store any data type
+# Naming Convention in Python
+# Way of giving names to the variables
+# 1. PascalCase: Each word starts with capital letter and no space in between
+# PascalCase is used for class names or function names in python
+# 2. camelCase: First word starts with small letter and each subsequent word starts with capital letter and no space in between
+# camelCase is used for class names or function names in python
+# 3. snake_case: Each word is in small letter and words are separated by underscore
+# snake_case is used for variable names in python
+# 4. kebab-case: Each word is in small letter and words are separated by hyphen
+# kebab-case is not used in python because hyphen is not allowed in variable names
 
-#name ="aashish"
-#print (name)
-
-#naming convention in python
-#way of giving names to the variables
-#1 PascalCase - each word starts with capital letter
-#2 camelCase - first word starts with small letter and rest of the words start with capital
-#3 snake_case - all words are in small letter and separated by underscore
-#4 kebab-case - all words are in small letter and separated by hyphen (not allowed in python)
-
-#variable naming rules in python
-#1 variable name should start with a letter or underscore
-#2 variable name can contain letters, digits and underscores
-#3 variable name cannot contain spaces
-#4 variable name should reflect the content of the variable
-#5 keywords cannot be used as variable names
-
-#input()
-#input{"message to be displayed to the user"}
-#input() function is used to take input from the user
-# and we need a variable to store the input from the user
-#input receives data in string
-
-#name = input("enter your name: ")
-#print("hello", name)
-
-#simple program to add two numbers
-#num1 = input("enter first number: ")
-#um2 = input("enter second number: ")
-#print("the sum is: ", num1 + num2) # this will concatenate the two numbers as strings
+# Variable naming rules
+# 1. Never start variable name with number
+# 2. Variable name can only contain letters, numbers and underscore
+# 3. Variable name cannot contain spaces
+# 4. The variable name should reflect the content of the variable
+# 5. Keywords cannot be used as variable names
 
 
-#type casting - converting one data type to another
-#the process of converting one data type to anothher data type is called type casting
-# # datatypes => int, float, str, 
+# input()
+# input("Message to be displayed to the user")
+# input() function is used to take input from the user 
+# and we need a variable to store the data taken from the user
 
-#type() function is used to check the data type of a variable
-num1 = input("enter first number: ")
-num2 = input("enter second number: ")
-print("the sum is: ", num1 + num2) # this will concatenate the two numbers as strings
-# to perform addition, we need to convert the input from string to int
-num1 = int(num1)
-num2 = int(num2)
-print("the sum is: ", num1 + num2) # this will perform addition and
-print("the sum is: ", str(num1 + num2)) # this will convert the result back to string and print it
+# name = input("Enter your name: ")
+# print(name)
+
+
+# SImple Program
+# num1 = input("Enter first number: ")
+# num2 = input("Enter second number: ")
+# print(num1+num2)
+
+
+# Type Casting
+# The process of converting one data type to another data type
+# # datatypes => int, float, str
+
+# str => Anything that is wrapped between "" or '' => str()
+# int => Any whole number without decimal point => int()
+# float => Any number with decimal point => float()
+# bool => COnsists of only two values: True False => bool()
+
+# num1 = input("Enter first number: ")
+# num2 = input("Enter second number: ")
+# print(num1+num2)
+
+# type() function is used to check the data type of a variable
+# print(type(num1))
+# print(type(num2))
+
+
+# Operators in Python
+# 1. Arithmetic Operators: + => addition in int, concatenation in str
+# - => subtraction, 
+# * => multiplication in int, repeats the value in str,
+# / => divide two numbers, 
+# % => finds the remainder , 
+# // => finds the floor value, 
+# ** => finds the power of a number
+
+# Task: Take two numbers from the user and perform all the arithmetic operations on them and print the result
+
+
+# Assaignment Operators
+# Used to assaign a value to the variable
+# = => simple assignment operator
+# += => first adds the value and assaigns the value in same variable
+# -= => first subtracts the value and assaigns the value in same variable
+# *= => first multiplies the value and assaigns the value in same variable
+# /= => first divides the value and assaigns the value in same variable
+a = 10
+# print(a)
+
+# a += 5
+# print(a)
+
+name_ujjwal = "Ujjwal"
+print(name_ujjwal)
