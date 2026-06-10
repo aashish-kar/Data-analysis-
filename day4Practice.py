@@ -5,22 +5,19 @@ for i in range(1,11):
 
 
 #ficed login system with loop
-credentials =[]
+credentials = []
 
 while True:
-    choice = input("\n1=Login,2=Register,3=Exit:")
+    choice = input("\n1=Login, 2 =Register, 3=Exit")
     if choice =='1':
-        username =input("Enter username:")
-        if username in credentials:
-            print("Login successful")
-        else:
-            print("Login failed")
-    elif choice =='2':
-        username = input("Enter username")
+        username=input("Enter username:")
+        print("login successful")
+    elif choice == "2":
+        username=input("Enter username:")
         credentials.append(username)
-        print("Registered successfully")
-    elif choice == '3':
-        print("Goodbye")
-        break
-    else:
-        print("Invalid choice")
+        print("registired successfully")
+    elif choice == "3":
+        print("goodbye")
+    else :
+        print("invalid choice")
+    
